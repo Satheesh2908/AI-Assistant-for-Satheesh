@@ -4,10 +4,10 @@
 1. Create a new Virtual environment
 conda create -n SK-Assistant python=3.10
 
-2. Checkout the created virtual environment
+## 2.  Checkout the created virtual environment
 conda env list
 
-3.Activiate the Virtual environment
+## 3.Activiate the Virtual environment
 conda activate SK-Assistant
 
 pip list
@@ -23,4 +23,12 @@ streamlit
 pipwin
 gTTS
 google-generativeai
+
+## Required Github Commands
+
+git add .
+
+git commit -m "updated"
+
+git push origin main
 
