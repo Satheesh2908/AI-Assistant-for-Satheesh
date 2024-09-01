@@ -36,7 +36,6 @@ def text_to_speech(text):
     tts.save("speech.mp3")
     
     
-    
 def llm_model_object(user_text): # Large Language Models (LLMs)
     genai.configure(api_key=GOOGLE_API_KEY)
     
@@ -47,3 +46,4 @@ def llm_model_object(user_text): # Large Language Models (LLMs)
     result=response.text
     
     return result
+
